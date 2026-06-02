@@ -1,16 +1,87 @@
-# React + Vite
+# 📚 Book Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Book Vibe Banner](desktop.png)
 
-Currently, two official plugins are available:
+Book Vibe is a responsive web application that helps users discover books, view detailed information, and manage their reading journey by adding books to a Read List or Wishlist.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔗 Live Demo
 
-## React Compiler
+- Live Site: https://book-vibe-react-router-project.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Browse books from local JSON data
+- View detailed information about each book
+- Add books to Read List
+- Add books to Wishlist
+- Prevent duplicate additions
+- Sort books by rating
+- Sort books by total pages
+- Toast notifications for user actions
+- Custom 404 page
+- Fully responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- React
+- React Router DOM
+- JavaScript (ES6)
+- Tailwind CSS
+- DaisyUI
+- React Toastify
+- React Tabs
+- Local Storage
+
+## 📂 Folder Structure
+
+```bash
+src
+├── Components
+├── Pages
+├── Routes
+├── Utilities
+├── assets
+├── App.jsx
+└── main.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/rashedulislam595/book-vibe.git
+```
+
+Go to the project directory:
+
+```bash
+cd book-vibe
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## 📱 Responsive Design
+
+The application is optimized for:
+
+- Mobile Devices
+- Tablets
+- Laptops
+- Desktop Devices
+
+## 👨‍💻 Developer
+
+**Md Rashedul Islam Rashed**
+
+GitHub: https://github.com/rashedulislam595
